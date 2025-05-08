@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Django
+db.sqlite3
+.env
+.env.*
+media/
+staticfiles/
+local_settings.py
+
+# Virtual Environment
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.swp
+
+# Migrations (isteğe bağlı)
+*/migrations/*.py
+!*/migrations/__init__.py
